@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.after::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.after>div {
+    float: left;
+}
+
+.header1 {
+    width: 100%;
+    height: 50px;
+    background: black;
+    color: rgb(255, 254, 242);
+    text-align: center;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.plus {
+    color: rgb(255, 254, 242);
+    position: absolute;
+    top: 14px;
+    left: 950px;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background: rgb(255, 254, 242);
+    padding: 35px 30px 20px 30px;
+    box-sizing: border-box;
+    color: #312f2f;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.header .left {
+    width: 20%;
+    position: relative;
+}
+
+.header .right {
+    width: 10%;
+    text-align: right;
+    position: absolute;
+    right: 30px;
+}
+
+.header .left .two,
+.header .left .fou {
+    width: 16%;
+    margin-right: 6%;
+}
+
+.header .left .one,
+.header .left .thr {
+    width: 20%;
+    margin-right: 10%;
+}
+
+.header .left>div:last-child {
+    margin-right: 0px;
+}
+
+.header .right>div {
+    width: 44%;
+    margin-right: 4%;
+}
+
+.main {
+    width: 100%;
+    height: 500px;
+    background: black;
+    color: rgb(255, 254, 242);
+}
+
+.main .boxA {
+    box-sizing: border-box;
+    width: 15%;
+    height: 100%;
+    padding: 100px 0px 0px 20px;
+}
+
+.main .boxA img {
+    width: 65%;
+}
+
+.main .boxA-1 {
+    width: 25%;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 100px 20px;
+}
+
+.main .boxA-1 .txt2 {
+    font-size: 35px;
+    margin: 25px 0px;
+}
+
+.main .boxA-1 .last {
+    width: 70%;
+    height: 50px;
+    margin-top: 30px;
+    border: 1px solid rgb(255, 254, 242);
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.main .boxA-1 .last .left,
+.main .boxA-1 .last .right {
+    width: 50%;
+
+}
+
+.main .boxA-1 .last .right {
+    text-align: right;
+}
+
+.boxB {
+    width: 100%;
+    height: 650px;
+    background: rgb(255, 254, 242);
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.boxB-1 {
+    width: 90%;
+    height: 100%;
+    border-bottom: 2px solid rgb(190, 190, 190);
+    margin: 0px auto;
+    box-sizing: border-box;
+    color: #312f2f;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.boxB-1>div {
+    width: 22%;
+    margin-right: 4%;
+    text-align: center;
+
+}
+
+.boxB-1>div:last-child {
+    margin-right: 0px;
+}
+
+.boxB-1>div img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    margin: 0px auto;
+    max-height: 400px;
+    box-sizing: border-box;
+
+}
+
+.boxB-1 .pic1 img {
+
+    height: 375px;
+
+}
+
+.boxB-1 .pic5 {
+    height: 405px;
+    max-width: 150px;
+    margin: 0px auto;
+}
+
+.boxB-1 .last {
+    max-height: 400px;
+    max-width: 100px;
+    margin: 0px auto 40px auto;
+
+}
+
+.boxB-1 p {
+    margin: 15px 0px;
+}
+
+.boxC {
+    width: 100%;
+    height: 650px;
+    background: black;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.boxC .boxC-1,
+.boxC .boxC-2 {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    color: rgb(255, 254, 242);}
+
+.boxC .txt1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.boxC .txt2 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+}
+
+.boxC .txt3 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-bottom: 1px solid rgb(255, 254, 242);
+    display: inline;
+}
+
+.boxC .pic {
+    width: 40%;
+    height: 300px;
+    background: rgb(56, 56, 56);
+    margin: 50px auto;
+}
+
+.boxD {
+    width: 100%;
+    height: 650px;
+    background: rgb(255, 254, 242);
+    box-sizing: border-box;
+    padding: 50px 0px 50px 50px;
+}
+
+.boxD-1 {
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 100px;
+}
+
+.boxD-2 {
+    width: 60%;
+    height: 100%;
+
+}
+
+.boxD-2 img {
+    width: 100%;
+    height: 90%;
+}
+
+.boxD-1 .txt1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.boxD-1 .txt2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.boxD .last2 {
+    border: 1px solid black;
+    width: 70%;
+    height: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.boxD-1 .last2 .left,
+.boxD-1 .last2 .right {
+    width: 50%;
+    font-weight: lighter;
+    font-size: 15px;
+
+}
+
+.boxD-1 .last2 .right {
+    text-align: right;
+}
+
+.boxE {
+    width: 100%;
+    height: 500px;
+    background: rgb(255, 254, 242);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 200px 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.boxE .txt1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background: black;
+    width: 100%;
+    height: 600px;
+    color: rgb(255, 254, 242);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    box-sizing: border-box;
+    padding: 50px 35px;
+    border-bottom: 5px solid rgb(255, 254, 242);
+}
+
+.footerWrap {
+    width: 35%;
+    height: 100%;
+}
+
+.footer-1 {
+    width: 100%;
+    height: 50%;
+}
+
+.footer-1 .email {
+    border: 1px solid rgb(255, 254, 242);
+    height: 35px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 3px 5px;
+}
+
+.footer-1 .email>div {
+    width: 50%;
+}
+
+.footer-1 .right {
+    text-align: right;
+}
+
+.footer-1 p {
+    margin: 20px 0px;
+}
+
+.footer-1 .check {
+    width: 100%;
+}
+
+.footer-1 input {
+    margin-right: 5px;
+}
+
+.footer-2 {
+    width: 100%;
+}
+
+.footer-2>div {
+    border-bottom: 1px solid rgb(255, 254, 242);
+    box-sizing: border-box;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.footerWrap2 {
+    width: 65%;
+    height: 100%;
+}
+
+.boxF {
+    width: 32%;
+    height: 45%;
+    margin-right: 2%;
+    box-sizing: border-box;
+    padding: 0px 20px 0px 30px;
+    margin-bottom: 50px;
+}
+
+.boxF:nth-child(3),
+.boxF:last-child {
+    margin-right: 0px;
+}
+
+.boxF .txt1 {
+    border-bottom: 1px solid rgb(255, 254, 242);
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding-bottom: 15px
+}
+
+.boxF ul li,
+.boxF p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.boxG {
+    width: 100%;
+    height: 100px;
+    background: black;
+    padding: 35px 50px;
+    box-sizing: border-box;
+    color: rgb(255, 254, 242);
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.boxG>div {
+    width: 100px;
+    height: 60px;
+}
